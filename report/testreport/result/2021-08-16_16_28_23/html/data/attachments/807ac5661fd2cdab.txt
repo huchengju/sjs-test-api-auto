@@ -1,0 +1,2 @@
+request= http://10.101.12.15:8091/darp/admin/login {"password": "123456", "userName": "admin"}
+response= {'code': 400, 'message': '用户名或密码错误', 'data': None, 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}

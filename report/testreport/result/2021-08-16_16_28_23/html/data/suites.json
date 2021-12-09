@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "public.base",
+    "children" : [ {
+      "name" : "test_sjs_darp_api",
+      "children" : [ {
+        "name" : "TestDarp",
+        "children" : [ {
+          "name" : "test_darp_company_add",
+          "uid" : "ad8d16fa50db9b2f",
+          "parentUid" : "008aa0d32eaab0e7fb933121535aa935",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629102504496,
+            "stop" : 1629102504533,
+            "duration" : 37
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_darp_admin_login",
+          "uid" : "9ed80e86068f41d1",
+          "parentUid" : "008aa0d32eaab0e7fb933121535aa935",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629102504624,
+            "stop" : 1629102504655,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "008aa0d32eaab0e7fb933121535aa935"
+      } ],
+      "uid" : "9e89ff05e6d62dce66a4da56b5dc29ba"
+    } ],
+    "uid" : "b45415d84db8edf11d34788bbd3563e9"
+  }, {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_core_scenes",
+      "children" : [ {
+        "name" : "TestDarp",
+        "children" : [ {
+          "name" : "test_darp_company_add",
+          "uid" : "15508d47a729e1c4",
+          "parentUid" : "af4b7cc9ea03637e09ed689cb01248d6",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629102504668,
+            "stop" : 1629102504686,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_darp_admin_login",
+          "uid" : "54d275a14107e392",
+          "parentUid" : "af4b7cc9ea03637e09ed689cb01248d6",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629102504700,
+            "stop" : 1629102504723,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af4b7cc9ea03637e09ed689cb01248d6"
+      } ],
+      "uid" : "3cb7f45fc36b5ff9250aa0be81ca8717"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

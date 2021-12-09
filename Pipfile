@@ -1,0 +1,26 @@
+[[source]]
+url = "http://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = false
+name = "pypi"
+
+[packages]
+ruamel-yaml = "*"
+requests = "*"
+pymysql = "*"
+faker = "*"
+paramiko = "*"
+configparser = "*"
+pipfile = "*"
+numpy = "*"
+locust = "*"
+pytest = "*"
+pip = "*"
+allure-pytest = "*"
+pycryptodome = "*"
+pytest-rerunfailures = "*"
+pytest-ordering = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9.0"

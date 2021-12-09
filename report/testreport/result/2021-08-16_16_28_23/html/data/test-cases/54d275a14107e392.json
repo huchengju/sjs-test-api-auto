@@ -1,0 +1,131 @@
+{
+  "uid" : "54d275a14107e392",
+  "name" : "test_darp_admin_login",
+  "fullName" : "testcase.test_core_scenes.TestDarp#test_darp_admin_login",
+  "historyId" : "88a9dcf0d537f7adc751023ffe4ebb8a",
+  "time" : {
+    "start" : 1629102504700,
+    "stop" : 1629102504723,
+    "duration" : 23
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (None == 0 or None == 0)\n +  where None = <built-in method get of dict object at 0x107fdbe40>('status')\n +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\n +  and   None = <built-in method get of dict object at 0x107fdbe40>('statusCode')\n +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get",
+  "statusTrace" : "self = <public.base.test_sjs_darp_api.TestDarp object at 0x107fdd610>, args = ()\nkwargs = {}, request_url = 'http://10.101.12.15:8091/darp/admin/login'\nrequest_body = '{\"password\": \"123456\", \"userName\": \"admin\"}'\nheader = ordereddict()\nheaders = {'Content-Type': 'application/json; charset=utf-8'}\nresponse = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}\n@py_assert1 = [\"None\\n{None = <built-in method get of dict object at 0x107fdbe40>\\n{<built-in method get of dict object at 0x107fdbe...0, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\\n}('statusCode')\\n} == 0\"]\n@py_assert3 = <built-in method get of dict object at 0x107fdbe40>\n@py_assert5 = 'status', @py_assert7 = None, @py_assert10 = 0\n\n    @pytest.mark.darp_api\n    @pytest.mark.api_smoke\n    def test_darp_admin_login(self, *args, **kwargs):\n    \n        request_url = base_url.testjavaHost + url.darp_admin_login\n        if args:\n            request_body = json.dumps(args[0])\n        else:\n            request_body = json.dumps(self.data['darp_admin_login']['requestdata'])\n        header = self.data['darp_admin_login']['header']\n        headers = base_url.header\n        headers.update(header)\n        print(\"request=\", request_url, request_body)\n        response = Request.post(url=request_url, data=request_body, headers=headers, verify=False)\n        print(\"response=\", response)\n        try:\n>           assert response.get('status') == 0 or response.get('statusCode') == 0\nE           AssertionError: assert (None == 0 or None == 0)\nE            +  where None = <built-in method get of dict object at 0x107fdbe40>('status')\nE            +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\nE            +  and   None = <built-in method get of dict object at 0x107fdbe40>('statusCode')\nE            +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\n\npublic/base/test_sjs_darp_api.py:57: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1629102504661,
+      "stop" : 1629102504661,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1629102504442,
+      "stop" : 1629102504488,
+      "duration" : 46
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "xyyoption",
+    "time" : {
+      "start" : 1629102504488,
+      "stop" : 1629102504488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert (None == 0 or None == 0)\n +  where None = <built-in method get of dict object at 0x107fdbe40>('status')\n +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\n +  and   None = <built-in method get of dict object at 0x107fdbe40>('statusCode')\n +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get",
+    "statusTrace" : "self = <public.base.test_sjs_darp_api.TestDarp object at 0x107fdd610>, args = ()\nkwargs = {}, request_url = 'http://10.101.12.15:8091/darp/admin/login'\nrequest_body = '{\"password\": \"123456\", \"userName\": \"admin\"}'\nheader = ordereddict()\nheaders = {'Content-Type': 'application/json; charset=utf-8'}\nresponse = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}\n@py_assert1 = [\"None\\n{None = <built-in method get of dict object at 0x107fdbe40>\\n{<built-in method get of dict object at 0x107fdbe...0, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\\n}('statusCode')\\n} == 0\"]\n@py_assert3 = <built-in method get of dict object at 0x107fdbe40>\n@py_assert5 = 'status', @py_assert7 = None, @py_assert10 = 0\n\n    @pytest.mark.darp_api\n    @pytest.mark.api_smoke\n    def test_darp_admin_login(self, *args, **kwargs):\n    \n        request_url = base_url.testjavaHost + url.darp_admin_login\n        if args:\n            request_body = json.dumps(args[0])\n        else:\n            request_body = json.dumps(self.data['darp_admin_login']['requestdata'])\n        header = self.data['darp_admin_login']['header']\n        headers = base_url.header\n        headers.update(header)\n        print(\"request=\", request_url, request_body)\n        response = Request.post(url=request_url, data=request_body, headers=headers, verify=False)\n        print(\"response=\", response)\n        try:\n>           assert response.get('status') == 0 or response.get('statusCode') == 0\nE           AssertionError: assert (None == 0 or None == 0)\nE            +  where None = <built-in method get of dict object at 0x107fdbe40>('status')\nE            +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\nE            +  and   None = <built-in method get of dict object at 0x107fdbe40>('statusCode')\nE            +    where <built-in method get of dict object at 0x107fdbe40> = {'code': 400, 'data': None, 'message': '用户名或密码错误', 'requestId': '183A6708A4EE46E3A949AE9F4DDAB90A'}.get\n\npublic/base/test_sjs_darp_api.py:57: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "807ac5661fd2cdab",
+      "name" : "stdout",
+      "source" : "807ac5661fd2cdab.txt",
+      "type" : "text/plain",
+      "size" : 221
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "api_smoke"
+  }, {
+    "name" : "tag",
+    "value" : "darp_api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_core_scenes"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDarp"
+  }, {
+    "name" : "host",
+    "value" : "jim-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "19051-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_core_scenes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "darp_api", "api_smoke" ]
+  },
+  "source" : "54d275a14107e392.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,2 @@
+request= http://10.101.12.15:8091/darp/company/add {"businessFile": "", "businessNumer": "", "companyName": "", "companyNameEn": "", "companyProfile": "", "companyTag": "", "contacts": "", "contactsMobile": "", "legalId": "", "legalName": "", "logoUrl": ""}
+response= {'code': 401, 'data': 'Full authentication is required to access this resource', 'message': '暂未登录或token已经过期'}

@@ -1,0 +1,45 @@
+{
+    "darp_company_add": {
+        "methodtype": "post",
+        "header": {},
+        "requestdata": {
+            "businessFile": "",
+            "businessNumer": "",
+            "companyName": "",
+            "companyNameEn": "",
+            "companyProfile": "",
+            "companyTag": "",
+            "contacts": "",
+            "contactsMobile": "",
+            "legalId": "",
+            "legalName": "",
+            "logoUrl": ""
+        }
+    },
+    "darp_admin_login": {
+        "methodtype": "post",
+        "header": {},
+        "requestdata": {
+            "password": "123456",
+            "userName": "tester"
+        }
+    },
+    "drap_admin_register": {
+        "methodtype": "post",
+        "header": {},
+        "requestdata": {
+            "cellphone": "13312341234",
+            "password": "123456",
+            "smsCode": "123456",
+            "userName": "tester"
+        }
+    },
+    "darp_admin_msgCode": {
+        "methodtype": "post",
+        "header": {},
+        "requestdata": {
+            "cellPhone": "13312341234",
+            "type": "register"
+        }
+    },
+}

@@ -1,0 +1,14 @@
+Sql:
+  ip: "172.17.3.100"
+  port: "3306"
+  username: "atoken"
+  password: "atoken"
+
+Email:
+  HOST_SERVER: smtp.exmail.qq.com
+  HOST_PORT: 465
+  FROM: wujun@dfgroup.pro
+  TO: wujun@dfgroup.pro
+  user: wujun@dfgroup.pro
+  password:
+  SUBJECT: 接口自动化测试报告

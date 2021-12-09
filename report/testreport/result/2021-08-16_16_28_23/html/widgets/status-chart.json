@@ -1,0 +1,41 @@
+[ {
+  "uid" : "9ed80e86068f41d1",
+  "name" : "test_darp_admin_login",
+  "time" : {
+    "start" : 1629102504624,
+    "stop" : 1629102504655,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad8d16fa50db9b2f",
+  "name" : "test_darp_company_add",
+  "time" : {
+    "start" : 1629102504496,
+    "stop" : 1629102504533,
+    "duration" : 37
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d275a14107e392",
+  "name" : "test_darp_admin_login",
+  "time" : {
+    "start" : 1629102504700,
+    "stop" : 1629102504723,
+    "duration" : 23
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15508d47a729e1c4",
+  "name" : "test_darp_company_add",
+  "time" : {
+    "start" : 1629102504668,
+    "stop" : 1629102504686,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

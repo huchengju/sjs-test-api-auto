@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Aug 16 16:28:24 CST 2021","Mon Aug 16 16:28:24 CST 2021","31","public.base","test_sjs_darp_api","TestDarp","","","test_darp_admin_login",""
+"failed","Mon Aug 16 16:28:24 CST 2021","Mon Aug 16 16:28:24 CST 2021","37","public.base","test_sjs_darp_api","TestDarp","","","test_darp_company_add",""
+"failed","Mon Aug 16 16:28:24 CST 2021","Mon Aug 16 16:28:24 CST 2021","23","testcase","test_core_scenes","TestDarp","","","test_darp_admin_login",""
+"failed","Mon Aug 16 16:28:24 CST 2021","Mon Aug 16 16:28:24 CST 2021","18","testcase","test_core_scenes","TestDarp","","","test_darp_company_add",""

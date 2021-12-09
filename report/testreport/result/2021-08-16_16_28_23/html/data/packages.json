@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "public.base.test_sjs_darp_api",
+    "children" : [ {
+      "name" : "test_darp_company_add",
+      "uid" : "ad8d16fa50db9b2f",
+      "parentUid" : "e3420461a642da0ed42df20ba6a044bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629102504496,
+        "stop" : 1629102504533,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_darp_admin_login",
+      "uid" : "9ed80e86068f41d1",
+      "parentUid" : "e3420461a642da0ed42df20ba6a044bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629102504624,
+        "stop" : 1629102504655,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "public.base.test_sjs_darp_api"
+  }, {
+    "name" : "testcase.test_core_scenes",
+    "children" : [ {
+      "name" : "test_darp_company_add",
+      "uid" : "15508d47a729e1c4",
+      "parentUid" : "2a89507f9eabaca9efc6ad40673c9da1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629102504668,
+        "stop" : 1629102504686,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_darp_admin_login",
+      "uid" : "54d275a14107e392",
+      "parentUid" : "2a89507f9eabaca9efc6ad40673c9da1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629102504700,
+        "stop" : 1629102504723,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_core_scenes"
+  } ]
+}
